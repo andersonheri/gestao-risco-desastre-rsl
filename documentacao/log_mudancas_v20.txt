@@ -1,0 +1,53 @@
+LOG DE CORREÇÕES — v19 → v20
+Manuscrito: "Gestão de risco e desastre: uma revisão sistemática da literatura
+acadêmica brasileira" (BIB)
+Data: 18/08/2026
+Escopo desta rodada: corrigir o corte ("...") nos nomes das categorias no eixo
+x do Gráfico 13, apontado pelo autor após a v19.
+
+DIAGNÓSTICO
+-----------
+A imagem regenerada na v19 exibia os rótulos truncados de forma incomum:
+"Inunda....es" (em vez de "Inundações") e "Desastres Tecnol..gicos" (em vez de
+"Desastres Tecnológicos"), com reticências literais substituindo as letras
+acentuadas. Não era problema de fonte (testado explicitamente com "DejaVu
+Sans", que tem cobertura completa de caracteres latinos/português, sem
+resolver) nem de largura de coluna/corte de layout do gráfico.
+
+Causa raiz identificada: o ambiente R deste container estava com o locale do
+sistema configurado como "C"/POSIX (sem suporte a UTF-8) — confirmado via
+Sys.getlocale() e l10n_info(). Nesse locale, o mecanismo de cálculo de largura
+de texto do dispositivo gráfico (usado para o texto rotacionado do eixo x)
+interpreta incorretamente os bytes multibyte dos caracteres acentuados em
+UTF-8, corrompendo a renderização.
+
+CORREÇÃO
+--------
+A imagem foi regenerada novamente com o mesmo código R do script original,
+mas agora executada com o ambiente forçado para locale UTF-8 (LANG=C.utf8,
+LC_ALL=C.utf8 — variante disponível neste sistema, já que "pt_BR.UTF-8" não
+está instalado). Com o locale correto, todos os dez rótulos do eixo x
+renderizam por extenso e sem cortes: Inundações, Deslizamento, Enchentes,
+Enxurradas, Desastres, Rompimento De Barragem, Alagamentos, Desastres
+Tecnológicos, Secas, Tremor De Terra.
+
+Imagem substituída em word/media/image16.jpg (mesmo arquivo/rId da v19), sem
+nenhuma outra alteração no documento.
+
+VERIFICAÇÃO
+-----------
+- Documento abre corretamente via python-docx (470 parágrafos de nível superior).
+- Contagem de <w:p> no XML: 775 (v19) → 775 (v20), sem alteração.
+- Controlar Alterações pendentes: 0 (mantido).
+- Conversão para PDF via LibreOffice sem erros.
+- Inspeção visual da página 28: todos os dez rótulos do Gráfico 13 aparecem
+  completos e corretos, sem reticências ou cortes.
+
+ARQUIVO FINAL
+-------------
+bib_anonimo_r1_artigo_revisado_v20.docx
+
+PENDÊNCIAS
+----------
+Nenhuma pendência nova. Seguem as duas pendências gerais do projeto: URL do
+GitHub e revisão final da carta-resposta antes da formatação em Word.

@@ -1,0 +1,20 @@
+# Sessões e ambiente R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.r-library/
+
+# Arquivos temporários do sistema e editores
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+
+# Produtos volumosos da análise completa (regeneráveis)
+resultados/analise_completa/
+resultados/auditoria/*.rds
+
+# Recurso externo baixado automaticamente na primeira análise completa
+dados/auxiliares/OpLexicon.csv

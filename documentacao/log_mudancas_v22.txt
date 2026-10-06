@@ -8,7 +8,7 @@ PEDIDOS DO EDITOR
 2. Delimitar o objeto como produção acadêmica em língua portuguesa sobre o Brasil, recuperada pela estratégia de busca (título, resumo, pergunta, Introdução, Resultados, Considerações Finais).
 3. Tornar as conclusões proporcionais ao corpus recuperado (sem representação exaustiva da literatura brasileira).
 
-ALTERAÇÕES (45 trechos, 30 parágrafos)
+ALTERAÇÕES (46 itens, 30 parágrafos)
 
 01. Título
    ANTES: GESTÃO DE RISCO E DESASTRE: UMA REVISÃO SISTEMÁTICA DA LITERATURA ACADÊMICA BRASILEIRA
@@ -189,3 +189,9 @@ ALTERAÇÕES (45 trechos, 30 parágrafos)
 45. Considerações Finais (agenda futura)
    ANTES: Com base nos achados deste trabalho, algumas direções
    DEPOIS: Como proposta do autor, que extrapola os achados deste trabalho, algumas direções
+
+46. Variação de "recuperada/recuperados" (estilo, sem mudança de sentido; 16 ocorrências)
+   Resumo: "da produção recuperada" -> "da produção analisada"
+   Introdução: "conjunto de estudos recuperados" -> "conjunto de estudos analisados"
+   Resultados e Considerações Finais: "produção recuperada" -> "produção analisada" ou "produção examinada"; "estudos recuperados" -> "estudos analisados", "estudos da amostra", "na amostra" ou "no corpus (analisado)".
+   Mantida a fórmula completa "recuperada segundo/pela estratégia de busca adotada" no resumo, na pergunta (Introdução e seção 3.1), na Introdução, na seção 3.2 e nas Considerações Finais.

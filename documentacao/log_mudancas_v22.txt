@@ -1,0 +1,191 @@
+LOG DE CORREÇÕES v20 -> v22 (rodada 2 de revisão, decisão editorial de 06/10/2026)
+Arquivos: bib_anonimo_r1_artigo_revisado_v22_rastreada.docx (Controle de Alterações, todas as alterações em relação à v20) e _v22_limpa.docx (todas as alterações aceitas).
+A v21 não foi enviada; a v22 a substitui e incorpora as alterações 36 a 45.
+Base: v20. Nenhuma imagem, tabela de dados, referência ou nota de rodapé foi alterada; só o texto abaixo.
+
+PEDIDOS DO EDITOR
+1. Distinguir reprodutibilidade das etapas posteriores à coleta da reprodutibilidade da recuperação inicial no Google Acadêmico/Harzing's.
+2. Delimitar o objeto como produção acadêmica em língua portuguesa sobre o Brasil, recuperada pela estratégia de busca (título, resumo, pergunta, Introdução, Resultados, Considerações Finais).
+3. Tornar as conclusões proporcionais ao corpus recuperado (sem representação exaustiva da literatura brasileira).
+
+ALTERAÇÕES (45 trechos, 30 parágrafos)
+
+01. Título
+   ANTES: GESTÃO DE RISCO E DESASTRE: UMA REVISÃO SISTEMÁTICA DA LITERATURA ACADÊMICA BRASILEIRA
+   DEPOIS: GESTÃO DE RISCO E DESASTRE NO BRASIL: REVISÃO SISTEMÁTICA DA PRODUÇÃO EM PORTUGUÊS
+
+02. Resumo (pergunta)
+   ANTES: nas pesquisas acadêmicas no Brasil?
+   DEPOIS: na produção acadêmica em língua portuguesa sobre o Brasil, recuperada segundo a estratégia de busca adotada?
+
+03. Resumo (corpus)
+   ANTES: que analisa 50 estudos publicados entre 2005 e 2024,
+   DEPOIS: que analisa 50 estudos acadêmicos em língua portuguesa, publicados entre 2005 e 2024 e recuperados por meio do Google Acadêmico e do Harzing’s Publish or Perish,
+
+04. Resumo (resultados)
+   ANTES: Os resultados indicam predomínio
+   DEPOIS: Os resultados indicam, nesse conjunto, predomínio
+
+05. Resumo (conclusão)
+   ANTES: abordagens conceituais e metodológicas da literatura nacional.
+   DEPOIS: abordagens conceituais e metodológicas da produção recuperada, sem pretensão de representar toda a literatura brasileira sobre o tema.
+
+06. Abstract (question)
+   ANTES: in academic research in Brazil?
+   DEPOIS: in Portuguese-language academic production on Brazil, as retrieved by the adopted search strategy?
+
+07. Abstract (corpus)
+   ANTES: analyzes 50 studies published between 2005 and 2024,
+   DEPOIS: analyzes 50 Portuguese-language academic studies published between 2005 and 2024 and retrieved through Google Scholar and Harzing’s Publish or Perish,
+
+08. Abstract (findings)
+   ANTES: Findings reveal a predominance
+   DEPOIS: Within this set, findings reveal a predominance
+
+09. Abstract (conclusion)
+   ANTES: in the Brazilian literature.
+   DEPOIS: in the retrieved production, without claiming to represent the Brazilian literature as a whole.
+
+10. Introdução (pergunta de pesquisa)
+   ANTES: nas pesquisas acadêmicas no Brasil?
+   DEPOIS: na produção acadêmica em língua portuguesa sobre o Brasil, recuperada segundo a estratégia de busca adotada?
+
+11. Introdução (objetivo)
+   ANTES: operacionalizado na literatura acadêmica.
+   DEPOIS: operacionalizado na produção acadêmica recuperada.
+
+12. Introdução (delimitação do objeto)
+   ANTES: e os principais resultados observados.
+   DEPOIS: e os principais resultados observados. O objeto de análise não é a literatura brasileira em sentido amplo, mas a produção acadêmica em língua portuguesa sobre o Brasil recuperada pela estratégia de busca descrita na seção metodológica, o que deixa de fora, por exemplo, estudos publicados em outros idiomas, inclusive de autoria brasileira.
+
+13. Introdução (banco de dados)
+   ANTES: com 50 casos brasileiros e 33 variáveis
+   DEPOIS: com 50 estudos em língua portuguesa sobre casos brasileiros e 33 variáveis
+
+14. Introdução (contribuição)
+   ANTES: presentes na literatura acadêmica sobre o tema.
+   DEPOIS: presentes na produção acadêmica em língua portuguesa sobre o tema no Brasil, recuperada pela estratégia de busca adotada.
+
+15. Introdução (estado da arte)
+   ANTES: do estado da arte, central
+   DEPOIS: do conjunto de estudos recuperados, central
+
+16. Metodologia (escopo da busca)
+   ANTES: na escrita acadêmica.
+   DEPOIS: na escrita acadêmica. Em consequência, o universo analisado é a produção acadêmica em língua portuguesa sobre o Brasil recuperada por essa estratégia, e não a produção brasileira em sentido amplo, que inclui estudos publicados em outros idiomas, sobretudo o inglês.
+
+17. Metodologia (critérios de exclusão)
+   ANTES: trabalhos em língua não portuguesa, quando o Brasil não era um estudo de caso e trabalhos
+   DEPOIS: trabalhos em língua não portuguesa, trabalhos em que o Brasil não era um estudo de caso e trabalhos
+
+18. Metodologia (recorte acadêmico)
+   ANTES: mapeiam a produção científica revisada por pares sobre gestão de risco e desastre no Brasil, e não um panorama
+   DEPOIS: mapeiam a produção científica em língua portuguesa, revisada por pares, sobre gestão de risco e desastre no Brasil, recuperada pela estratégia de busca adotada, e não um panorama
+
+19. Metodologia (remissão ao título)
+   ANTES: Essa delimitação está refletida no título e nos objetivos deste artigo.
+   DEPOIS: Essa delimitação está refletida na pergunta de pesquisa, nos objetivos e no resumo deste artigo.
+
+20. Metodologia (reprodutibilidade)
+   ANTES: O banco de dados final e os scripts de tratamento, disponibilizados em repositório público no GitHub (ver adiante), permitem, ainda assim, a reprodução integral das etapas de análise a partir dos 831 registros originalmente coletados.
+   DEPOIS: É necessário distinguir duas etapas. Os 831 registros exportados do Harzing’s Publish or Perish em fevereiro de 2025, o banco final com os 50 estudos codificados e os scripts de tratamento, disponibilizados em repositório público no GitHub (ver adiante), permitem reconstituir e auditar as etapas posteriores à coleta, isto é, a seleção a partir desse conjunto de registros e as análises realizadas. A decisão de incluir ou excluir cada registro seguiu os critérios descritos nesta seção, envolveu julgamento do pesquisador e não está codificada registro a registro no arquivo bruto. Esses materiais não permitem, além disso, reproduzir de forma estrita a recuperação inicial dos resultados no Google Acadêmico, que pode retornar conjuntos distintos em buscas futuras. Assim, a disponibilização dos dados assegura a transparência do tratamento a partir do material coletado, mas não resolve a limitação relativa à reprodutibilidade da busca.
+
+21. Metodologia (repositório)
+   ANTES: o banco de dados, os scripts e os materiais de apoio utilizados neste artigo estão disponíveis em repositório público no GitHub.
+   DEPOIS: o banco de dados bruto (831 registros), o banco final (50 estudos), os scripts e os materiais de apoio utilizados neste artigo estão disponíveis em repositório público no GitHub, o que permite auditar as etapas posteriores à coleta, mas não a recuperação inicial da busca, conforme a limitação apontada acima.
+
+22. Quadro 3 (critérios de exclusão)
+   ANTES: trabalhos em língua não-portuguesa; quando o Brasil não era um estudo de caso e; trabalhos fora
+   DEPOIS: trabalhos em língua não-portuguesa; trabalhos em que o Brasil não era um estudo de caso; trabalhos fora
+
+23. Resultados (tipo de publicação)
+   ANTES: indica que a publicação em periódicos científicos é o principal meio de disseminação dos achados na área.
+   DEPOIS: indica que, nos estudos recuperados, a publicação em periódicos científicos é o principal meio de disseminação dos achados.
+
+24. Resultados (idade)
+   ANTES: a área permanece relativamente nova, o que sugere
+   DEPOIS: a produção recuperada permanece relativamente recente, o que sugere
+
+25. Resultados (série temporal)
+   ANTES: crescimento expressivo da produção científica nos anos
+   DEPOIS: crescimento expressivo da produção recuperada nos anos
+
+26. Resultados (coautoria 1)
+   ANTES: Isso indica que a colaboração entre diferentes núcleos de pesquisa sobre gestão de risco e desastre no Brasil ainda é limitada: a produção no campo está dispersa
+   DEPOIS: Isso indica que, entre os estudos recuperados, a colaboração entre diferentes núcleos de pesquisa sobre gestão de risco e desastre no Brasil ainda é limitada: a produção recuperada está dispersa
+
+27. Resultados (coautoria 2)
+   ANTES: Essa estrutura sugere que a colaboração no campo da gestão de risco e desastre no Brasil ainda se organiza
+   DEPOIS: Essa estrutura sugere que, nos estudos recuperados, a colaboração ainda se organiza
+
+28. Resultados (hipóteses)
+   ANTES: da literatura nacional sobre o tema, identificado
+   DEPOIS: dos estudos recuperados sobre o tema, identificado
+
+29. Resultados (ciclo)
+   ANTES: A concentração da literatura na fase de resposta
+   DEPOIS: A concentração dos estudos recuperados na fase de resposta
+
+30. Resultados (áreas temáticas)
+   ANTES: grande parte da produção acadêmica considera o Estado
+   DEPOIS: grande parte da produção recuperada considera o Estado
+
+31. Resultados (LDA x rede)
+   ANTES: à medida que a literatura brasileira sobre gestão de risco e desastre reúne-se
+   DEPOIS: à medida que a produção recuperada sobre gestão de risco e desastre reúne-se
+
+32. Considerações Finais (afirmação geral)
+   ANTES: O estudo mostrou que a gestão de risco e desastre
+   DEPOIS: Segundo os estudos recuperados, a gestão de risco e desastre
+
+33. Considerações Finais (tendências)
+   ANTES: A análise revelou algumas principais tendências importantes na produção científica sobre gestão de risco e desastre.
+   DEPOIS: A análise revelou algumas tendências importantes na produção acadêmica em língua portuguesa sobre gestão de risco e desastre no Brasil, recuperada pela estratégia de busca adotada.
+
+34. Considerações Finais (limitação 1)
+   ANTES: pode não abranger toda a diversidade de abordagens metodológicas e teóricas existentes sobre o tema.
+   DEPOIS: não abrange, nem pretende abranger, a totalidade das abordagens metodológicas e teóricas existentes sobre o tema, pois resulta de uma estratégia de busca específica (Google Acadêmico, palavras-chave em português, busca por títulos), cuja recuperação inicial não é estritamente reprodutível.
+
+35. Considerações Finais (limitação 2: idioma)
+   ANTES: mas também parcela relevante da própria produção nacional sobre o tema, o que deve ser considerado ao generalizar os padrões aqui identificados como representativos da literatura brasileira como um todo.
+   DEPOIS: mas também parcela relevante da produção de autoria brasileira sobre o tema. Por essa razão, os padrões aqui identificados caracterizam a produção acadêmica em língua portuguesa sobre o Brasil recuperada pela estratégia de busca adotada. Eles não devem ser generalizados como representativos da literatura brasileira como um todo, nem tomados como estado da arte exaustivo do campo.
+
+36. Seção 3.1 (pergunta de pesquisa)
+   ANTES: nas pesquisas acadêmicas no Brasil?
+   DEPOIS: na produção acadêmica em língua portuguesa sobre o Brasil, recuperada segundo a estratégia de busca adotada?
+
+37. Introdução (contribuição)
+   ANTES: uma base teórica robusta que permita a formulação de
+   DEPOIS: subsídios para a formulação de
+
+38. Metodologia, seção 3.2 (estudo incluído manualmente)
+   ANTES: englobando artigos científicos, monografias, dissertações e teses.
+   DEPOIS: englobando artigos científicos, monografias, dissertações e teses. Um dos 50 estudos analisados (nº 46) foi incluído manualmente, por meio de busca complementar realizada fora da estratégia principal, e por isso não consta no arquivo bruto de 831 registros; o total final (n = 50) apresentado na Figura 1 considera esse estudo.
+
+39. Metodologia, seção 3.4 (reprodutibilidade)
+   ANTES: ... isto é, a seleção a partir desse conjunto de registros e as análises realizadas.
+   DEPOIS: ... isto é, a seleção a partir desse conjunto de registros e as análises realizadas, com exceção de um estudo incluído manualmente por busca complementar (ver seção 3.2), que não consta no arquivo bruto.
+
+40. Quadro 3 (data da pesquisa)
+   ANTES: 10 de fevereiro de 2025
+   DEPOIS: 10 e 12 de fevereiro de 2025
+
+41. Considerações Finais (tendência temporal)
+   ANTES: a publicação de estudos sobre gestão de risco e desastre tem aumentado
+   DEPOIS: a publicação dos estudos recuperados tem aumentado
+
+42. Considerações Finais (idade média)
+   ANTES: indicando que o campo está em constante atualização
+   DEPOIS: indicando que a produção recuperada está em constante atualização
+
+43. Considerações Finais (nível local)
+   ANTES: o que sugere uma lacuna na compreensão
+   DEPOIS: o que sugere, nos estudos recuperados, uma lacuna na compreensão
+
+44. Considerações Finais (colaboração)
+   ANTES: A colaboração entre governos, setor privado,
+   DEPOIS: Segundo a literatura de referência adotada neste artigo, a colaboração entre governos, setor privado,
+
+45. Considerações Finais (agenda futura)
+   ANTES: Com base nos achados deste trabalho, algumas direções
+   DEPOIS: Como proposta do autor, que extrapola os achados deste trabalho, algumas direções

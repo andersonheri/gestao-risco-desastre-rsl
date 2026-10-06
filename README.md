@@ -70,6 +70,12 @@ A verificação confere estrutura, leitura do banco, sintaxe dos scripts e dispo
 - Pequenas diferenças gráficas podem ocorrer entre versões de pacotes, fontes e sistemas operacionais.
 - O banco preserva os nomes de colunas originais. Os scripts normalizam esses nomes quando necessário.
 
+## Declaração de uso de inteligência artificial
+
+Foi utilizado o Claude (Anthropic) como apoio técnico e editorial. A ferramenta auxiliou na revisão linha a linha do manuscrito, na correção de problemas no código em R que gera as figuras, na organização e na documentação deste repositório e na redação de rascunhos da carta-resposta e dos logs de alteração.
+
+A ferramenta não coletou dados, não desenhou o protocolo de busca nem os critérios de inclusão e exclusão, não gerou referências bibliográficas e não determinou nenhuma conclusão do estudo. O banco de 50 estudos resulta da coleta e da codificação feitas pelo autor, que revisou e aprovou todo o conteúdo e assume a responsabilidade por ele. A ferramenta não é listada como autora.
+
 ## Licença
 
 Antes da publicação pública, os autores devem definir e adicionar a licença aplicável ao código e ao banco de dados.

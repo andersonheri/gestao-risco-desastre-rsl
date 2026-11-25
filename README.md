@@ -6,13 +6,14 @@ Este repositório reúne o banco de dados, os scripts em R e as figuras corrigid
 
 - `dados/banco_bruto.xlsx`: 831 registros exportados do Harzing’s Publish or Perish (Google Acadêmico) em fevereiro de 2025, antes da aplicação dos critérios de exclusão.
 - `dados/banco_final.xlsx`: banco final da revisão sistemática, com 50 estudos e as variáveis codificadas.
+- `dados/dicionario_variaveis.csv`: dicionário das 34 colunas do banco final (dimensão, descrição e mensuração), extraído do livro de códigos da pesquisa, com observações sobre divergências de codificação.
 - `scripts/analise_completa.R`: fluxo analítico original, adaptado para usar caminhos relativos ao repositório.
 - `scripts/reproduzir_figuras_revisadas.R`: reproduz a taxonomia metodológica, o Gráfico 5 e o Gráfico 18.
 - `scripts/grafico_tipos_desastre.R`: reproduz o gráfico de tipos de desastre com a categoria “Desastres”.
 - `scripts/grafico_clusters_coautoria.R`: reproduz os clusters reais da rede de coautoria.
 - `scripts/diagnostico_clusters.R`: documenta a diferença entre os clusters reais e o corte forçado usado na versão inicial.
 - `resultados/figuras`: figuras finais empregadas na revisão do manuscrito.
-- `documentacao/log_mudancas_v20.txt` e `documentacao/log_mudancas_v22.txt`: registro das alterações no manuscrito.
+- `documentacao/log_mudancas_v20.txt`, `documentacao/log_mudancas_v22.txt` e `documentacao/log_mudancas_v23.txt`: registro das alterações no manuscrito.
 
 Materiais editoriais, pareceres, carta-resposta e versões intermediárias do manuscrito não integram o repositório público.
 
@@ -69,14 +70,18 @@ A verificação confere estrutura, leitura do banco, sintaxe dos scripts e dispo
 - Sementes aleatórias foram fixadas nas visualizações de rede.
 - Pequenas diferenças gráficas podem ocorrer entre versões de pacotes, fontes e sistemas operacionais.
 - O banco preserva os nomes de colunas originais. Os scripts normalizam esses nomes quando necessário.
+- A variável `prinp_autores_gestao_desastre(sobrenome, ano)` foi coletada, mas não é usada na versão publicada do artigo. Na revisão final, a conferência das listas de referências dos estudos não confirmou as atribuições dessa variável. Por isso, o quadro que dela derivava (antigo Quadro 4) foi retirado. Detalhes em `documentacao/log_mudancas_v23.txt`.
 
 ## Declaração de uso de inteligência artificial
 
-Foi utilizado o Claude (Anthropic) como apoio técnico e editorial. A ferramenta auxiliou na revisão linha a linha do manuscrito, na correção de problemas no código em R que gera as figuras, na organização e na documentação deste repositório e na redação de rascunhos da carta-resposta e dos logs de alteração.
+Foi utilizado o Claude (Anthropic) como apoio técnico e editorial. A ferramenta auxiliou na revisão linha a linha do manuscrito, na correção de problemas no código em R que gera as figuras, na organização e na documentação deste repositório e na redação de rascunhos da carta-resposta e dos logs de alteração. Na revisão final (v23), auxiliou também na conferência entre citações e lista de referências, na localização de referências ausentes em fontes verificáveis (DOI, páginas de periódicos, documentos oficiais e a tese do autor) e na conferência das listas de referências de estudos do corpus que motivou a retirada do antigo Quadro 4.
 
-A ferramenta não coletou dados, não desenhou o protocolo de busca nem os critérios de inclusão e exclusão, não gerou referências bibliográficas e não determinou nenhuma conclusão do estudo. O banco de 50 estudos resulta da coleta e da codificação feitas pelo autor, que revisou e aprovou todo o conteúdo e assume a responsabilidade por ele. A ferramenta não é listada como autora.
+A ferramenta não coletou dados, não desenhou o protocolo de busca nem os critérios de inclusão e exclusão, não criou referências sem fonte verificável e não determinou nenhuma conclusão do estudo. O banco de 50 estudos resulta da coleta e da codificação feitas pelo autor, que revisou e aprovou todo o conteúdo e assume a responsabilidade por ele. A ferramenta não é listada como autora.
 
 ## Licença
 
-Antes da publicação pública, os autores devem definir e adicionar a licença aplicável ao código e ao banco de dados.
+- Código (`scripts/`): licença MIT (ver `LICENSE`).
+- Dados (`dados/`) e figuras (`resultados/`): Creative Commons Atribuição 4.0 Internacional, CC BY 4.0 (ver `dados/LICENSE`).
+
+Ao reutilizar os dados ou o código, cite o artigo publicado na BIB e este repositório.
 

@@ -70,7 +70,7 @@ A verificação confere estrutura, leitura do banco, sintaxe dos scripts e dispo
 - Sementes aleatórias foram fixadas nas visualizações de rede.
 - Pequenas diferenças gráficas podem ocorrer entre versões de pacotes, fontes e sistemas operacionais.
 - O banco preserva os nomes de colunas originais. Os scripts normalizam esses nomes quando necessário.
-- A variável `prinp_autores_gestao_desastre(sobrenome, ano)` foi coletada, mas não é usada na versão publicada do artigo. Na revisão final, a conferência das listas de referências dos estudos não confirmou as atribuições dessa variável. Por isso, o quadro que dela derivava (antigo Quadro 4) foi retirado. Detalhes em `documentacao/log_mudancas_v23.txt`.
+- A variável `prinp_autores_gestao_desastre(sobrenome, ano)` foi coletada, mas não é usada na versão publicada do artigo. Na revisão final, a conferência das listas de referências dos estudos não confirmou as atribuições dessa variável. Por isso, o quadro que dela derivava (antigo Quadro 4) foi retirado.
 
 ## Declaração de uso de inteligência artificial
 

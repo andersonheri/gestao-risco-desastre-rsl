@@ -74,9 +74,9 @@ A verificação confere estrutura, leitura do banco, sintaxe dos scripts e dispo
 
 ## Declaração de uso de inteligência artificial
 
-Foi utilizado o Claude (Anthropic) como apoio técnico e editorial. A ferramenta auxiliou na revisão linha a linha do manuscrito, na correção de problemas no código em R que gera as figuras, na organização e na documentação deste repositório e na redação de rascunhos da carta-resposta e dos logs de alteração. Na revisão final (v23), auxiliou também na conferência entre citações e lista de referências, na localização de referências ausentes em fontes verificáveis (DOI, páginas de periódicos, documentos oficiais e a tese do autor) e na conferência das listas de referências de estudos do corpus que motivou a retirada do antigo Quadro 4.
+Foi utilizado o Claude (Anthropic) como apoio técnico e editorial, conforme a declaração de uso de IA enviada à revista em 18 de agosto de 2026. A ferramenta auxiliou na revisão linha a linha do manuscrito, na correção de problemas no código em R que gera as figuras, na organização e na documentação deste repositório e na redação de rascunhos da carta-resposta e dos logs de alteração.
 
-A ferramenta não coletou dados, não desenhou o protocolo de busca nem os critérios de inclusão e exclusão, não criou referências sem fonte verificável e não determinou nenhuma conclusão do estudo. O banco de 50 estudos resulta da coleta e da codificação feitas pelo autor, que revisou e aprovou todo o conteúdo e assume a responsabilidade por ele. A ferramenta não é listada como autora.
+A ferramenta não coletou nem codificou dados, não desenhou o protocolo de busca nem os critérios de inclusão e exclusão, não alterou resultados numéricos do estudo e não tomou decisões sobre o conteúdo do manuscrito. O banco de 50 estudos resulta da coleta e da codificação feitas pelo autor, que revisou e aprovou todo o conteúdo e assume a responsabilidade por ele. A ferramenta não é listada como autora.
 
 ## Licença
 

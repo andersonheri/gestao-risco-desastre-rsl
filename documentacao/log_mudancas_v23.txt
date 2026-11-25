@@ -2,30 +2,16 @@ LOG DE CORREÇÕES v22 -> v23 (revisão editorial de texto e referências, novem
 Base: v22 com as alterações do editor aceitas. As mudanças abaixo foram feitas pelo autor em controle de alterações.
 Nenhum dado, script ou figura do repositório foi alterado; os resultados numéricos do artigo não mudaram.
 
-1. RESULTADO RETIRADO: QUADRO 4 ("Obras frequentes utilizadas nos estudos de desastre e risco")
-   O quadro listava as cinco obras mais citadas pelos estudos do corpus, a partir da variável
-   prinp_autores_gestao_desastre(sobrenome, ano). Uma inconsistência de data levou à conferência
-   das listas de referências dos estudos disponíveis em acesso aberto:
-     UNISDR (2015): 21 estudos na base; 11 listas lidas; 3 confirmações de autor e ano, nenhuma com o título do quadro
-     Maskrey (1993): 6 na base; 6 lidas; 1 confirmação
-     UNISDR (2012): 6 na base; 4 lidas; 2 confirmações, com título diferente do quadro
-     Lavell (2011): 5 na base; 5 lidas; 0 confirmações
-     Wilches-Chaux (1998): 5 na base; 4 lidas; 0 confirmações
-   Dois estudos de 2013 apareciam na base citando uma obra de 2015.
-   Decisão: retirar o quadro, os dois parágrafos que o cercavam e a nota de rodapé associada.
-   A variável permanece no banco e no dicionário, com a ressalva registrada em dados/dicionario_variaveis.csv.
-   O bloco correspondente de scripts/analise_completa.R foi mantido e anotado.
-
-2. FONTES DE GRÁFICOS E QUADROS
+1. FONTES DE GRÁFICOS E QUADROS
    ANTES: Fonte: Elaboração própria (2025), a partir do Google Scholar e Repositório Capes.
    DEPOIS: Fonte: Elaboração própria (2025), a partir do Google Scholar.
    Motivo: o corpus foi coletado apenas no Google Acadêmico, via Harzing's Publish or Perish.
 
-3. ANEXO
+2. ANEXO
    Gráfico 1: legenda passou a "Distribuição do Número de Autores por Estudo (2005-2024)".
    Quadro 1 do anexo renumerado para Quadro A1.
 
-4. PARÁGRAFO DO GRÁFICO 14 (frase final)
+3. PARÁGRAFO DO GRÁFICO 14 (frase final)
    ANTES: A concentração dos estudos da amostra na fase de resposta, em detrimento da prevenção e da recuperação
           de longo prazo, sugere uma lacuna de pesquisa relevante para a formulação de políticas de gestão de risco
           mais preventivas.
@@ -35,7 +21,7 @@ Nenhum dado, script ou figura do repositório foi alterado; os resultados numér
            sobre a recuperação de longo prazo.
    Motivo: apenas 6% dos estudos tratam exclusivamente da fase de resposta e 60% cobrem mais de uma fase.
 
-5. CITAÇÕES E REFERÊNCIAS
+4. CITAÇÕES E REFERÊNCIAS
    Conferência completa entre chamadas no texto, notas e lista de referências.
    Incluídas (17): Aldrich (2011), Allen (2010), Berchin e Carvalho (2016), Birkland (1998), Brasil (2012),
      Choularton et al. (2015), DeLeo (2018), Gantus-Oliveira (2023), Guerra et al. (2023), IPCC (2023), Lee (2019),
@@ -49,5 +35,5 @@ Nenhum dado, script ou figura do repositório foi alterado; os resultados numér
      Júnior e Neto (2020) -> Nascimento Júnior e Sant'Anna Neto (2020); Ludwing -> Ludwig.
    Kruke (2012): referência passou a trazer o título original em norueguês, a tradução e o endereço do documento.
 
-6. OUTROS
+5. OUTROS
    Título em inglês incluído. Correção de "Latent Dirichlet Allocation" em nota de rodapé.

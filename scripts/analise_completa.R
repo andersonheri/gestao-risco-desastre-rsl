@@ -981,7 +981,7 @@ ggsave("Substantivo/top10_tipos_desastre.jpeg", plot = p, width = 12, height = 8
 # retirado da versão publicada do artigo. A conferência das listas de referências
 # dos estudos não confirmou as atribuições da variável prinp_autores_gestao_desastre.
 # O bloco é mantido apenas para documentar o processo; ver
-# documentacao/log_mudancas_v23.txt e dados/dicionario_variaveis.csv.
+# dados/dicionario_variaveis.csv.
 
 #  Renomear colunas para remover espaços extras e quebras de linha
 colnames(df) <- trimws(gsub("\\n", "", colnames(df)))
